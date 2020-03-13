@@ -8,7 +8,7 @@
       xpointer="xpointer(/policy/profiles/*)"/>
     <xi:include href="minimal_action.xml"
       xpointer="xpointer(/policy/profiles/*)"/>
-    <profile ns="/" node="admin">
+    <profile context="admin">
       <xi:include href="common/node.xml"
         xpointer="xpointer(/profile/*)"/>
       <actions call="ALLOW" execute="ALLOW">
